@@ -7,7 +7,7 @@ import './HomepageAboutMe.scss'
 import profileImage from '../../../../assets/images/steven-jackson.jpg'
 const HomepageAboutMe = () => {
     return (
-        <section id="Homepage-aboutMe">
+        <section id="HomepageAboutMe">
             <Container>
                 <Row className="aboutMe">
                     <Col md={4} xs={12} lg={4}>
@@ -37,7 +37,7 @@ const HomepageAboutMe = () => {
                     </Col>
                 </Row>
             </Container>
-            <NavigationArrow link="#Homepage-skills" color="#fff" />
+            <NavigationArrow link="#HomepageSkills" color="#fff" />
         </section>
     )
 }

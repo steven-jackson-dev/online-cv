@@ -7,7 +7,7 @@ import HomepageLink from '../HomepageLink/HomepageLink';
 
 const HomepageSkills = () => {
     return (
-        <section id="Homepage-skills" className="pt-5 mt-5">
+        <section id="HomepageSkills" className="pt-5 mt-5">
             <Container>
                 <Row>
                     <Col md={3} xs={12} lg={3}>

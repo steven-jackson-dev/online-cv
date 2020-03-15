@@ -36,7 +36,7 @@ const HomepageProfile = () => {
                             </Col>
                         </Row>
                     </Container>
-                    <NavigationArrow link="#Homepage-aboutMe" />
+                    <NavigationArrow link="#HomepageAboutMe" />
                 </div>
             </Jumbotron>
         </section>
