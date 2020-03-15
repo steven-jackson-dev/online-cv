@@ -13,7 +13,7 @@ const HomepageProjects = () => {
                     <h2 className="text-uppercase">My Projects</h2>
                     <hr style={{ borderColor: '#fff' }} />
                     <p>A collection of my mini projects</p>
-                    <HomepageLink link="/" name="Visit Projects" colors={{ bgColor: '#fff', color: '#313131' }} />
+                    <HomepageLink link="/projects" name="Visit Projects" colors={{ bgColor: '#fff', color: '#313131' }} />
                 </Col>
 
             </Row>

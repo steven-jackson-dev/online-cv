@@ -42,7 +42,7 @@ const HomepageExperience = () => {
                     </Col>
                 </Row>
             </Container>
-            <HomepageLink link="/" name="Visit Experience Page" />
+            <HomepageLink link="/experience" name="Visit Experience Page" />
             <NavigationArrow link="#HomepageEducation" color="#000" />
         </section>
     )

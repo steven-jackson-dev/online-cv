@@ -1,5 +1,10 @@
 #HomepagePortfolio {
   background-color: #1f1f1f;
+  & .lead a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700
+  }
   & .item {
     & img {
       cursor: pointer;

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 import FontAwesome from 'react-fontawesome'
 import { PropTypes } from 'prop-types';
 import './HomepageLink.scss'
@@ -13,7 +14,7 @@ const HomepageLink = props => {
     }
     return (
         <div className="HomepageLink text-center my-5">
-            <a style={colors && { color: color, backgroundColor: bgColor }} href={link}>{name}<FontAwesome className="arrow-down" name="arrow-right" /></a>
+            <Link to={link} style={colors && { color: color, backgroundColor: bgColor }} >{name}<FontAwesome className="arrow-down" name="arrow-right" /></Link>
         </div>
     )
 }

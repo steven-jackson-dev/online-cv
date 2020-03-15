@@ -27,7 +27,7 @@ const HomepagePortfolio = () => {
                                 <h2 className="text-uppercase">Portfolio</h2>
                                 <hr style={{ borderColor: '#fff' }} />
                                 <p className="lead">A small sample of my portfolio.<br />
-                                    Please visit my <a href="/">Portfolio Page</a> to view a list of all the clients I have worked with.</p>
+                                    Please visit my <a href="/portfolio">Portfolio Page</a> to view a list of all the clients I have worked with.</p>
                             </div>
                         </Col>
                     </Row>
@@ -52,7 +52,7 @@ const HomepagePortfolio = () => {
                         })}
                         <ModalImage show={modalShow} content={modalContent} onHide={() => setModalShow(false)} />
                     </Row>
-                    <HomepageLink link="/" name="Visit Portfolio" colors={{ bgColor: '#fff', color: '#313131' }} />
+                    <HomepageLink link="/portfolio" name="Visit Portfolio" colors={{ bgColor: '#fff', color: '#313131' }} />
                 </Container>
             </PopIn>
             <NavigationArrow link="#HomepageProjects" color="#fff" />

@@ -1,10 +1,11 @@
 import React from 'react'
 import NavigationArrow from '../../../components/NavigationArrow/NavigationArrow';
+import HomepageLink from '../HomepageLink/HomepageLink'
 import { Row, Container, Col, Image } from 'react-bootstrap'
 import { BounceInRight } from "react-spring-pop";
 import FontAwesome from 'react-fontawesome'
-import './HomepageAboutMe.scss'
 import profileImage from '../../../../assets/images/steven-jackson.jpg'
+import './HomepageAboutMe.scss'
 const HomepageAboutMe = () => {
     return (
         <section id="HomepageAboutMe">
@@ -36,6 +37,8 @@ const HomepageAboutMe = () => {
                         </BounceInRight>
                     </Col>
                 </Row>
+                <HomepageLink link="/about" name="Visit About Page" colors={{ bgColor: '#fff', color: '#313131' }} />
+
             </Container>
             <NavigationArrow link="#HomepageSkills" color="#fff" />
         </section>

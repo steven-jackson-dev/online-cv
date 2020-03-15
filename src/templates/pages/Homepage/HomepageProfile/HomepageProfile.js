@@ -14,17 +14,17 @@ const HomepageProfile = () => {
         intro: 'A adaptive and versatile Web Developer who loves exploring everything to do with code and the technologies surrounding the Web.'
     }
     return (
-        <section className="Homepage-profile">
+        <section className="HomepageProfile">
             <Jumbotron className="text-center" style={{ backgroundImage: `url(${bgImage})` }} fluid>
                 <div className="intro">
                     <Container>
                         <Row style={{ marginTop: '15%' }}>
                             <Col xs={12} md={12} lg={12}>
                                 <PopIn>
-                                    <h1 className="Homepage-heading">{content.name}</h1>
-                                    <p className="Homepage-lead mb-5"><i>{content.title}</i></p>
+                                    <h1 className="heading">{content.name}</h1>
+                                    <p className="lead mb-5"><i>{content.title}</i></p>
 
-                                    <p className="Homepage-intro-text">{content.intro}</p>
+                                    <p className="intro-text">{content.intro}</p>
                                     <hr style={{ borderColor: '#fff' }} />
                                     <a href="https://github.com/steven-jackson-dev/" rel="noopener noreferrer" target="_blank" className="profile-links">
                                         <FontAwesome className="link" name="github" />
