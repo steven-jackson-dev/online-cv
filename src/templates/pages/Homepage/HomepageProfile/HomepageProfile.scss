@@ -1,0 +1,109 @@
+@import "../../../../assets/scss/main.scss";
+
+.Homepage-profile {
+  & .jumbotron {
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+
+    & .intro {
+      height: 100vh;
+      color: #fff;
+      background-color: rgba(14, 14, 14, 0.7);
+      margin-top: -24vh;
+
+      & .row {
+        margin-bottom: 15vh;
+      }
+
+      & .container {
+        @include transition;
+        position: relative;
+        top: 15%;
+        margin-bottom: 25vh;
+
+        & img {
+          max-height: 40vh;
+        }
+
+        @media screen and (max-width: 500px) {
+          padding: 1em;
+        }
+
+        & .Homepage-heading {
+          font-size: 5em;
+          letter-spacing: 0.1em;
+
+          @media screen and (max-width: 500px) {
+            padding-top: 2em;
+            font-size: 2em;
+          }
+        }
+
+        & .Homepage-lead {
+          font-size: 2em;
+          letter-spacing: 0.1em;
+
+          @media screen and (max-width: 500px) {
+            font-size: 1.2em;
+          }
+        }
+
+        & .Homepage-intro-text {
+          color: #dae0e5;
+          font-size: 1.6em;
+          padding: 0 10em;
+
+          @media screen and (max-width: 769px) {
+            padding: 0 5em;
+          }
+
+          @media screen and (max-width: 500px) {
+            padding: 0;
+            font-size: 1em;
+          }
+        }
+
+        & a {
+          &.profile-links {
+            & span {
+              font-size: 3em;
+              margin-top: 2vh;
+              border: 0px;
+              border-radius: 0;
+              padding: 0px;
+              animation: none;
+              color: #fff;
+
+              &:hover {
+                @include animate-bounce();
+              }
+            }
+          }
+        }
+
+        @media screen and (max-width: 1366px) {
+          padding: 0;
+          top: 15%;
+          margin-bottom: 25vh;
+        }
+
+        @media screen and (max-width: 769px) {
+          padding: 0;
+          top: 15%;
+          margin-bottom: 25vh;
+        }
+
+        @media screen and (max-width: 500px) {
+          padding: 0;
+          top: 10%;
+          margin-bottom: 20vh;
+        }
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      padding: 0;
+    }
+  }
+}

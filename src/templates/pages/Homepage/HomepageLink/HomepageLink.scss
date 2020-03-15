@@ -1,0 +1,22 @@
+@import "../../../../assets/scss/main.scss";
+
+.HomepageLink {
+    a {
+        @include transition(0.4s);
+        @include btn(#fff, #313131);
+        border: 1px solid #313131;
+
+        &:hover {
+            @include btn(#313131, #fff);
+            border: 1px solid #313131;
+
+            & span {
+                @include animate-bounce(4s, bounceRight);
+            }
+        }
+
+        & span {
+            padding: 0 15px;
+        }
+    }
+}
