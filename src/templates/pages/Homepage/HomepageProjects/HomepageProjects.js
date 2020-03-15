@@ -3,7 +3,6 @@ import { Row, Col } from 'react-bootstrap'
 import HomepageLink from '../HomepageLink/HomepageLink'
 
 const HomepageProjects = () => {
-
     const styles = {
         backgroundColor: '#1f1f1fe3'
     }

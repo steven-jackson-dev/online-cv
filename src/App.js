@@ -5,8 +5,6 @@ import Homepage from './templates/pages/Homepage/Homepage';
 import { Footer } from './templates/components/Footer/Footer';
 
 function App() {
-
-
   return (
     <div className="App">
       <main>
