@@ -11,7 +11,9 @@
       color: #fff;
       background-color: rgba(14, 14, 14, 0.7);
       margin-top: -24vh;
-
+        @media screen and (max-width: 500px) {
+           margin-top: -12vh;
+        }
       & .row {
         margin-bottom: 15vh;
       }

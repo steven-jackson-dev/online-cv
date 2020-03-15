@@ -1,18 +1,25 @@
 import React, { Fragment } from 'react'
 import './TopNavBar.scss'
-import { Nav, Navbar } from 'react-bootstrap'
+import { Nav, Navbar} from 'react-bootstrap'
+import {Link } from 'react-router-dom'
 
 const TopNavBar = () => {
     return (
         <Fragment>
-            <Navbar bg="dark" variant="dark" expand="lg" fixed="top" >
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ml-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Link</Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
+          <Navbar collapseOnSelect expand="lg" variant="dark">
+  <Navbar.Brand href="#home">Steven Jackson</Navbar.Brand>
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
+    <Nav className="ml-auto">
+      <Link to='/' className="nav-link">Home</Link>
+      <Link to='/about' className="nav-link">About</Link>
+      <Link to='/experience' className="nav-link">Experience</Link>
+      <Link to='/portfolio' className="nav-link">Portfolio</Link>
+      <Link to='/projects' className="nav-link">Projects</Link>
+      <Link to='/contact' className="nav-link">Contact</Link>
+    </Nav>
+  </Navbar.Collapse>
+  </Navbar>
         </Fragment>
 
     )

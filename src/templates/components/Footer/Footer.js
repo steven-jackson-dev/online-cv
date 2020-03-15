@@ -1,6 +1,7 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap'
-export const Footer = () => {
+
+const Footer = () => {
     const styles = {
         backgroundColor: '#1f1f1f'
     }
@@ -15,3 +16,5 @@ export const Footer = () => {
         </footer>
     )
 }
+
+export default Footer;
