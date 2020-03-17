@@ -3,8 +3,7 @@ import React from 'react'
 const Skills = () => {
     return (
         <div>
-            Skills
-        </div>
+Sorry, This is Coming Soon Real soon!        </div>
     )
 }
 
