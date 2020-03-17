@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react'
-import './TopNavBar.scss'
 import { Nav, Navbar} from 'react-bootstrap'
 import {Link } from 'react-router-dom'
+import './TopNavBar.scss'
 
 const TopNavBar = () => {
     return (
         <Fragment>
-          <Navbar collapseOnSelect expand="lg" variant="dark">
+          <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top">
   <Navbar.Brand href="#home">Steven Jackson</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
