@@ -21,7 +21,7 @@ const HomepageSkills = () => {
                                 <p className="description">
                                     My main skills as a Web Developer are HTML5, CSS3, Javascript, PHP and Wordpress with a React becoming a core addition for future use.
                                     I have tinkered around with a lot of languages and framework. <br /><br />
-                                    Visit my <a href="/">Skills Page</a> for a more detailed list of frameworks, libraries and tools that I have used
+                                    Visit my <a href="/skills">Skills Page</a> for a more detailed list of frameworks, libraries and tools that I have used
                                     </p>
                                 <ul className="list">
                                     <li>

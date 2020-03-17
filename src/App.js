@@ -1,5 +1,5 @@
 import React from 'react';
-import {Switch,Route } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './templates/components/Header/Header';
@@ -16,19 +16,19 @@ function App() {
   return (
     <div className="App">
       <main>
-      <Header />
+        <Header />
         <Switch>
-          <Route exact path="/"  component={Homepage} />
-          <Route exact path="/about" component={AboutMe}/>
-          <Route path="/experience" component={Experience}/>
-          <Route path="/portfolio" component={Skills}/>
-          <Route path="/portfolio" component={Portfolio}/>
-          <Route path="/projects" component={Projects}/>
-          <Route path="/contact" component={Contact}/>
-          <Route path='' component={Homepage}/>
+          <Route exact path="/" component={Homepage} />
+          <Route exact path="/about" component={AboutMe} />
+          <Route path="/experience" component={Experience} />
+          <Route path="/skills" component={Skills} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/contact" component={Contact} />
+          <Route path='' component={Homepage} />
         </Switch>
       </main>
-       <Footer />
+      <Footer />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Homepage.scss'
 import HomepageProfile from './HomepageProfile/HomepageProfile'
 import HomepageAboutMe from './HomepageAboutMe/HomepageAboutMe';
@@ -13,6 +13,9 @@ import { HomepageContactMe } from './HomepageContactMe/HomepageContactMe';
 
 const Homepage = () => {
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
 
 
     return (

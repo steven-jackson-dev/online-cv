@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Row, Container, Col } from 'react-bootstrap'
+import Divider from '../../components/Divider/Divider'
 import { BounceInRight } from "react-spring-pop";
 import './Experience.scss'
 
 
 const Experience = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
+
     return (
         <section id="Experience" className="py-5 mt-5">
             <Container>
@@ -14,9 +20,9 @@ const Experience = () => {
                             <h3>Experience</h3>
                         </div>
                     </Col>
-                    <Col md={9} xs={12} lg={9}>
+                    <Col md={9} xs={12} lg={9} className="content">
                         <BounceInRight>
-                            <div className="content mb-5">
+                            <div className="mb-5">
                                 <h2>Freelance Developer</h2>
                                 <b>July 2015 to Current</b> <br />
                                 <em>Digital Agencies and Individual Clients</em>
@@ -40,8 +46,8 @@ const Experience = () => {
                                     <li>Everything else that comes with the Freelance development</li>
                                 </ul>
                             </div>
-
-                            <div className="content mb-5">
+                            <Divider />
+                            <div className="mb-5">
                                 <h2>ROI Digital/Media</h2>
                                 <b>July 2012 to July 2015</b> <br />
                                 <em>Intern/Junior Developer &amp; IT Technician</em>
@@ -87,22 +93,26 @@ const Experience = () => {
 
                                 </ul>
                             </div>
-                            <div className="content mb-5">
+                            <Divider />
+                            <div className="mb-5">
                                 <h2>DC Group – Trend Security</h2>
                                 <b>2011 to 2012</b> <br />
                                 <em>Technician</em>
                             </div>
-                            <div className="content mb-5">
+                            <Divider />
+                            <div className="mb-5">
                                 <h2>Frontline Integrated Solutions</h2>
                                 <b>2010 to 2011</b> <br />
                                 <em>IT Support</em>
                             </div>
-                            <div className="content mb-5">
+                            <Divider />
+                            <div className="mb-5">
                                 <h2>TVR Computers</h2>
                                 <b>2009 to 2009</b> <br />
                                 <em>IT Technician</em>
                             </div>
-                            <div className="content mb-5">
+                            <Divider />
+                            <div className="mb-5">
                                 <h2>IT Outlook (Temp)</h2>
                                 <b>2006 to 2006</b> <br />
                                 <em>IT Technician</em>

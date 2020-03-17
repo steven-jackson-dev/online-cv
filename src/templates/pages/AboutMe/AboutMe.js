@@ -1,22 +1,26 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Row, Container, Col } from 'react-bootstrap'
 import { BounceInRight } from "react-spring-pop";
 import './AboutMe.scss'
-import Experience from './../Experience/Experience';
 
 const AboutMe = () => {
+    
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
+    
     return (
         <section className="AboutMe py-5">
             <Container>
-                <Row className="my-5">
+                <Row>
                     <Col md={3} xs={12} lg={3}>
                         <div className="title text-center">
                             <h3>About Me</h3>
                         </div>
                     </Col>
-                    <Col md={9} xs={12} lg={9}>
+                    <Col md={9} xs={12} lg={9} className="content">
                         <BounceInRight>
-                            <div className="content mb-5">
+                            <div className="mb-5">
                                 <h2>General</h2>
                                 <p className="mt-3">
                                     I am a very calm and happy person. I like to make jokes, banter and prank people in a hilarious way.
@@ -25,7 +29,7 @@ const AboutMe = () => {
                                     I will not stop coding till I know as much as I possibily can in FED and BED.
                                 </p>
                             </div>
-                            <div className="content mb-5">
+                            <div className="mb-5">
                                 <h2>Personality Type</h2>
                                 <p><b><em>INTJ (The Architect)</em></b></p>
                                 <p>I am not a believer in online personality tests, but this test hit the nail on the head and I highly recommend it.</p>
@@ -38,9 +42,9 @@ const AboutMe = () => {
 
                                 </p>
                             </div>
-                            <div className="content mb-5">
+                            <div className="mb-5">
                                 <h2>Interests</h2>
-                                <p>I am a big fan of anime , coding, researching and gaming</p>
+                                <p>I am a big fan of anime, coding, researching and gaming</p>
                                 <p>My free time is spent watching anime, gaming and learning/researching something new. The majority of my day is working or communicating with clients to make sure they receive the best Experience</p>
 
                             </div>
