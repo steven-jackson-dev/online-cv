@@ -11,14 +11,13 @@ const HomepageAboutMe = () => {
         <section id="HomepageAboutMe">
             <Container>
                 <Row className="aboutMe">
-                    <Col md={4} xs={12} lg={4}>
+                    <Col md={4} xs={12} lg={4} className="profileImage">
                         <Image src={profileImage} fluid thumbnail />
                     </Col>
                     <Col md={8} xs={12} lg={8}>
                         <BounceInRight>
                             <h2>About Me</h2>
-                            <p className="lead"></p>
-                            <p className="text-left">I find everything to do with coding to be fantastic and love learning new things and looking at new ways to improve myself
+                            <p className="lead">I find everything to do with coding to be fantastic and love learning new things and looking at new ways to improve myself
                         on a daily basis. My passion for learning new technologies has made me a variable jack of all trades and have done a little of everything.</p>
                             <Row className="aboutMe-contactDetails my-5">
                                 <Col md={6} xs={12} lg={6}>

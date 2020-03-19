@@ -9,9 +9,14 @@ nav {
   }
   & a.nav-link {
     color: #fff !important;
+    @media screen and (max-width:500px){
+text-align: center;
+    }
   }
   & .navbar-brand a{
     color: #fff;
     text-decoration: none;
   }
+
+  
 }

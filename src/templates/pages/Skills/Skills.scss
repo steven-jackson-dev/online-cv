@@ -12,7 +12,11 @@
     letter-spacing: 2px;
     text-transform: uppercase;
   }
-
+  & h4 {
+    @media screen and (max-width: 500px) {
+      padding-top: 1em;
+    }
+  }
   & .content {
     border-left: 1px solid #c3c3c3;
     padding: 0 2em;
@@ -25,5 +29,8 @@
       -moz-box-shadow: 11px 11px 5px 0px rgba(50, 50, 50, 0.1);
       box-shadow: 11px 11px 5px 0px rgba(50, 50, 50, 0.1);
     }
+  }
+  @media screen and (max-width: 500px) {
+    text-align: center;
   }
 }
