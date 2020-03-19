@@ -9,6 +9,12 @@ import Quickbooks from '../assets/images/portfolio-images/recent-websites/quickb
 import schoolandleisure from '../assets/images/portfolio-images/recent-websites/schoolandleisure.png'
 import FHF from '../assets/images/portfolio-images/recent-websites/fhf.png'
 import Orlichem from '../assets/images/portfolio-images/recent-websites/orlichem.png'
+import handicaps from '../assets/images/portfolio-images/freelance/handicaps.png'
+import braveart from '../assets/images/portfolio-images/freelance/braveart.png'
+import greatracketshop from '../assets/images/portfolio-images/freelance/greatracketshop.png'
+import karoo from '../assets/images/portfolio-images/freelance/karoo-biking.png'
+import thebaywash from '../assets/images/portfolio-images/freelance/thebaywash.png'
+import openActive from '../assets/images/portfolio-images/freelance/openactive.png'
 
 // Thumb
 import HandicapsThumb from '../assets/images/portfolio-images/thumb/recent-websites/handicaps.png'
@@ -19,6 +25,13 @@ import QuickbooksThumb from '../assets/images/portfolio-images/thumb/recent-webs
 import schoolandleisureThumb from '../assets/images/portfolio-images/thumb/recent-websites/schoolandleisure.png'
 import FHFThumb from '../assets/images/portfolio-images/thumb/recent-websites/fhf.png'
 import OrlichemThumb from '../assets/images/portfolio-images/thumb/recent-websites/orlichem.png'
+import handicapsThumb from '../assets/images/portfolio-images/freelance/handicaps_thumb.png'
+import braveartThumb from '../assets/images/portfolio-images/freelance/braveart_thumb.png'
+import greatracketshopThumb from '../assets/images/portfolio-images/freelance/greatracketshop_thumb.png'
+import karooThumb from '../assets/images/portfolio-images/freelance/karoo-biking_thumb.png'
+import thebaywashThumb from '../assets/images/portfolio-images/freelance/thebaywash_thumb.png'
+import openActiveThumb from '../assets/images/portfolio-images/freelance/openactive.png'
+
 
 
 export const homepagePortfolioData = [
@@ -80,9 +93,66 @@ export const homepagePortfolioData = [
         thumb: FHFThumb,
         type: 'Wordpress'
     },
+]
+
+export const PortfolioLatestData = [
+    {
+        id: uuidv4(),
+        name: 'Orlichem',
+        imgsrc: Orlichem,
+        thumb: OrlichemThumb,
+        type: 'Wordpress'
+    },
+    {
+        id: uuidv4(),
+        name: 'Handicaps',
+        imgsrc: Handicaps,
+        thumb: HandicapsThumb,
+        type: 'PHP Web Application'
+    },
+    {
+        id: uuidv4(),
+        name: 'Handicaps Site',
+        imgsrc: handicaps,
+        thumb: handicapsThumb,
+        type: 'Wordpress'
+    },
+    {
+        id: uuidv4(),
+        name: 'Brave Art',
+        imgsrc: braveart,
+        thumb: braveartThumb,
+        type: 'Wordpress'
+    },
+    {
+        id: uuidv4(),
+        name: 'Great Racket Shop',
+        imgsrc: greatracketshop,
+        thumb: greatracketshopThumb,
+        type: 'Wordpress'
+    },
+    {
+        id: uuidv4(),
+        name: 'Open Active',
+        imgsrc: openActive,
+        thumb: openActiveThumb,
+        type: 'Wordpress/Custom'
+    },
+    {
+        id: uuidv4(),
+        name: 'Karoo Biking',
+        imgsrc: karoo,
+        thumb: karooThumb,
+        type: 'Wordpress'
+    },
+    {
+        id: uuidv4(),
+        name: 'The Bay Wash',
+        imgsrc: thebaywash,
+        thumb: thebaywashThumb,
+        type: 'Wordpress'
+    },
 
 ]
 
-
-export default []
 

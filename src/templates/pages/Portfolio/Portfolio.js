@@ -1,4 +1,10 @@
 import React, { useEffect } from 'react'
+import Divider from './../../components/Divider/Divider';
+import PortfolioRecent from './PortfolioRecent/PortfolioRecent';
+import PortfolioPrevious from './PortfolioPrevious/PortfolioPrevious';
+import PortfolioClientList from './PortfolioClientList/PortfolioClientList';
+import './Portfolio.scss'
+
 
 const Portfolio = () => {
 
@@ -7,9 +13,13 @@ const Portfolio = () => {
     }, [])
 
     return (
-        <div>
-            Sorry, This is Coming Soon Real soon!
-        </div>
+        <section id="Portfolio" className="py-5 mt-5">
+            <PortfolioRecent />
+            <Divider />
+            <PortfolioPrevious />
+            <Divider />
+            <PortfolioClientList />
+        </section>
     )
 }
 

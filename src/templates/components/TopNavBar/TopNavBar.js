@@ -16,7 +16,7 @@ const TopNavBar = () => {
             <Link to='/experience' className="nav-link">Experience</Link>
             <Link to='/skills' className="nav-link">Skills</Link>
             <Link to='/portfolio' className="nav-link">Portfolio</Link>
-            <Link to='/projects' className="nav-link">Projects</Link>
+            {/* <Link to='/projects' className="nav-link">Projects</Link> */}
             <Link to='/contact' className="nav-link">Contact</Link>
           </Nav>
         </Navbar.Collapse>
