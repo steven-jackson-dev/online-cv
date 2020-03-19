@@ -10,4 +10,8 @@ nav {
   & a.nav-link {
     color: #fff !important;
   }
+  & .navbar-brand a{
+    color: #fff;
+    text-decoration: none;
+  }
 }

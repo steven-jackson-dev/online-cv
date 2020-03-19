@@ -1,5 +1,10 @@
+@import "../../../assets/scss/main.scss";
 .ModalImage {
-    img {
-        width: 100%;
+  img {
+    @include transition();
+    width: 100%;
+    &:hover {
+      transform: scale(1.2);
     }
+  }
 }

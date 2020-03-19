@@ -1,6 +1,7 @@
 import React from 'react'
 import { Row, Container, Col } from 'react-bootstrap'
 import { BounceInRight } from "react-spring-pop";
+import { Link } from "react-router-dom"
 import './HomepageSkills.scss'
 import NavigationArrow from '../../../components/NavigationArrow/NavigationArrow';
 import HomepageLink from '../HomepageLink/HomepageLink';
@@ -21,43 +22,42 @@ const HomepageSkills = () => {
                                 <p className="description">
                                     My main skills as a Web Developer are HTML5, CSS3, Javascript, PHP and Wordpress with a React becoming a core addition for future use.
                                     I have tinkered around with a lot of languages and framework. <br /><br />
-                                    Visit my <a href="/skills">Skills Page</a> for a more detailed list of frameworks, libraries and tools that I have used
-                                    </p>
-                                <ul className="list">
-                                    <li>
-                                        <span className="html5"></span>
-                                        <em>HTML5</em>
-                                    </li>
-                                    <li>
-                                        <span className="css3"></span>
-                                        <em>CSS3</em>
-                                    </li>
-                                    <li>
-                                        <span className="javascript"></span>
-                                        <em>Javascript</em>
-                                    </li>
-                                    <li>
-                                        <span className="php"></span>
-                                        <em>PHP</em>
-                                    </li>
-                                    <li>
-                                        <span className="wordpress"></span>
-                                        <em>Wordpress</em>
-                                    </li>
-                                    <li>
-                                        <span className="react"></span>
-                                        <em>React</em>
-                                    </li>
-                                </ul>
+                                    Visit my <Link to='/skills'>Skills Page </Link> for a more detailed list of frameworks, libraries and tools that I have used</p>
+                            <ul className="list">
+                                <li>
+                                    <span className="html5"></span>
+                                    <em>HTML5</em>
+                                </li>
+                                <li>
+                                    <span className="css3"></span>
+                                    <em>CSS3</em>
+                                </li>
+                                <li>
+                                    <span className="javascript"></span>
+                                    <em>Javascript</em>
+                                </li>
+                                <li>
+                                    <span className="php"></span>
+                                    <em>PHP</em>
+                                </li>
+                                <li>
+                                    <span className="wordpress"></span>
+                                    <em>Wordpress</em>
+                                </li>
+                                <li>
+                                    <span className="react"></span>
+                                    <em>React</em>
+                                </li>
+                            </ul>
 
                             </div>
                         </BounceInRight>
                     </Col>
                 </Row>
             </Container>
-            <HomepageLink link="/skills" name="Visit Skills Page" />
-            <NavigationArrow link="#HomepageExperience" color="#000" />
-        </section>
+        <HomepageLink link="/skills" name="Visit Skills Page" />
+        <NavigationArrow link="#HomepageExperience" color="#000" />
+        </section >
     )
 }
 

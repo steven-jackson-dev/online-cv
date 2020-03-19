@@ -3,10 +3,10 @@ import { Row, Container, Col, Figure } from 'react-bootstrap'
 import { PopIn } from "react-spring-pop";
 import './HomepagePortfolio.scss'
 import ModalImage from '../../../components/ModalImage/ModalImage';
-import { homepagePortfolioData } from '../../../../inc/portfolioData'
 import NavigationArrow from '../../../components/NavigationArrow/NavigationArrow';
 import HomepageLink from '../HomepageLink/HomepageLink';
-
+import { Link } from "react-router-dom"
+import { homepagePortfolioData } from '../../../../inc/portfolioData'
 
 const HomepagePortfolio = () => {
     const [modalShow, setModalShow] = useState(false);
@@ -27,7 +27,7 @@ const HomepagePortfolio = () => {
                                 <h2 className="text-uppercase">Portfolio</h2>
                                 <hr style={{ borderColor: '#fff' }} />
                                 <p className="lead">A small sample of my portfolio.<br />
-                                    Please visit my <a href="/portfolio">Portfolio Page</a> to view a list of all the clients I have worked with.</p>
+                                    Please visit my <Link to='/skills'>Portfolio Page</Link> to view a list of all the clients I have worked with.</p>
                             </div>
                         </Col>
                     </Row>

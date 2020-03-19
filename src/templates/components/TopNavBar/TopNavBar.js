@@ -20,7 +20,7 @@ const TopNavBar = () => {
   return (
     <Fragment>
       <Navbar collapseOnSelect expand="lg" variant="dark" fixed={width <= 500 ? 'bottom' : 'top'}>
-        <Navbar.Brand href="#home">Steven Jackson</Navbar.Brand>
+        <Navbar.Brand><Link to='/'>Steven Jackson</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
