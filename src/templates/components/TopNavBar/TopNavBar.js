@@ -1,12 +1,25 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect, useState } from 'react'
 import { Nav, Navbar } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './TopNavBar.scss'
 
 const TopNavBar = () => {
+
+
+  const [width, setwidth] = useState(undefined);
+
+  const handleResize = () => setwidth(window.innerWidth);
+
+
+  useEffect(() => {
+    handleResize();
+    window.addEventListener('resize', handleResize)
+
+  }, [])
+
   return (
     <Fragment>
-      <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top">
+      <Navbar collapseOnSelect expand="lg" variant="dark" fixed={width <= 500 ? 'bottom' : 'top'}>
         <Navbar.Brand href="#home">Steven Jackson</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
