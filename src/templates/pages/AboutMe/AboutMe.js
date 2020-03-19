@@ -4,11 +4,11 @@ import { BounceInRight } from "react-spring-pop";
 import './AboutMe.scss'
 
 const AboutMe = () => {
-    
+
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [])
-    
+
     return (
         <section className="AboutMe py-5">
             <Container>
@@ -33,14 +33,10 @@ const AboutMe = () => {
                                 <h2>Personality Type</h2>
                                 <p><b><em>INTJ (The Architect)</em></b></p>
                                 <p>I am not a believer in online personality tests, but this test hit the nail on the head and I highly recommend it.</p>
-                                <p className="mt-3">
-                                    <blockquote class="blockquote">
-                                        <small class="mb-2"><i>"It can be lonely at the top. Being one of the rarest personality types and being among the most capable people, Architects know this all too well. They make up just two percent of the population, and women with this personality type are especially rare, forming only 0.8%. It can be difficult for Architects to find people who can keep up with their non-stop analysis of things. People with this personality type are imaginative yet decisive... ambitious yet like their privacy... curious about everything but remain focused."</i></small>
-                                        <span class="blockquote-footer"><cite title="16personalities.com"><a href="https://www.16personalities.com/intj-personality" target="_blank" rel="noopener noreferrer">16personalities.com</a></cite></span>
-
-                                    </blockquote>
-
-                                </p>
+                                <blockquote className="blockquote mt-3">
+                                    <small className="mb-2"><i>"It can be lonely at the top. Being one of the rarest personality types and being among the most capable people, Architects know this all too well. They make up just two percent of the population, and women with this personality type are especially rare, forming only 0.8%. It can be difficult for Architects to find people who can keep up with their non-stop analysis of things. People with this personality type are imaginative yet decisive... ambitious yet like their privacy... curious about everything but remain focused."</i></small>
+                                    <span className="blockquote-footer"><cite title="16personalities.com">16personalities.com</cite></span>
+                                </blockquote>
                             </div>
                             <div className="mb-5">
                                 <h2>Interests</h2>
@@ -52,7 +48,7 @@ const AboutMe = () => {
                     </Col>
                 </Row>
             </Container>
-        </section>
+        </section >
     )
 }
 
