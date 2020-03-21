@@ -1,5 +1,9 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom'
+import { Switch, Route, useLocation } from 'react-router-dom'
+import {
+  TransitionGroup,
+  CSSTransition
+} from "react-transition-group";
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './templates/components/Header/Header';
@@ -13,20 +17,29 @@ import Projects from './templates/pages/Projects/Projects'
 import Contact from './templates/pages/Contact/Contact'
 
 function App() {
+  let location = useLocation();
   return (
     <div className="App">
       <main>
         <Header />
-        <Switch>
-          <Route exact path="/" component={Homepage} />
-          <Route exact path="/about" component={AboutMe} />
-          <Route path="/experience" component={Experience} />
-          <Route path="/skills" component={Skills} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/contact" component={Contact} />
-          <Route path='' component={Homepage} />
-        </Switch>
+        <TransitionGroup>
+          <CSSTransition
+            key={location.key}
+            classNames="fade"
+            timeout={800}
+          >
+            <Switch location={location}>
+              <Route exact path="/" component={Homepage} />
+              <Route exact path="/about" component={AboutMe} />
+              <Route path="/experience" component={Experience} />
+              <Route path="/skills" component={Skills} />
+              <Route path="/portfolio" component={Portfolio} />
+              <Route path="/projects" component={Projects} />
+              <Route path="/contact" component={Contact} />
+              <Route path='' component={Homepage} />
+            </Switch>
+          </CSSTransition>
+        </TransitionGroup>
       </main>
       <Footer />
     </div>
