@@ -1,0 +1,52 @@
+@import "../../../assets/scss/main.scss";
+
+#Projects {
+  & p {
+    font-size: 1em;
+  }
+  & h3 {
+    border-bottom: 3px solid red;
+    padding-bottom: 10px;
+    width: 75%;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  ul {
+    list-style: none;
+    @media screen and (max-width: 500px) {
+        padding: 0 !important;
+      }
+      & li{
+          padding: 10px 0;
+      }
+}
+
+  & .content {
+    border-left: 1px solid #c3c3c3;
+    padding: 0 2em;
+    @media screen and (max-width: 500px) {
+      text-align: center;
+      padding-top: 2em;
+    }
+  }
+  a {
+    margin-top: 20px;
+    @include transition(0.4s);
+    @include btn(#fff, #313131);
+    border: 1px solid #313131;
+
+    &:hover {
+      @include btn(#313131, #fff);
+      border: 1px solid #313131;
+
+      & span {
+        @include animate-bounce(4s, bounceRight);
+      }
+    }
+
+    & span {
+      padding: 0 15px;
+    }
+  }
+}

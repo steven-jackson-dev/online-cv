@@ -12,6 +12,12 @@
     }
     ul {
         list-style: none;
+        @media screen and (max-width: 500px) {
+            padding: 0 !important;
+          }
+          & li{
+              padding: 10px 0;
+          }
     }
 
     & .content {
