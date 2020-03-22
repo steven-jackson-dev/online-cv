@@ -37,15 +37,16 @@ const Projects = () => {
                                     <li>Roll Dice</li>
                                     <li>Todo List</li>
                                 </ul>
-                                <a href="https://stevenjackson.co.za/projects/" rel="noopener noreferrer" target="_blank">Visit Projects App<FontAwesome className="arrow-down" name="arrow-right" /></a>
+                                <a href="https://stevenjackson.co.za/projects/" rel="noopener noreferrer" target="_blank">View Projects App<FontAwesome className="arrow-down" name="arrow-right" /></a>
                             </div>
                             <Divider />
                             <div className="mb-5">
-                                <h2>CopyPasta</h2>
-                                <em>In Development</em>
-                                <p className="mt-3">
-                                    A personal app for storing useful information and snippets
+                                <h2>CopyPasta - Example</h2>
+                                <em>Personal App - In Development</em>
+                                <p className="my-5">
+                                    A personal app for storing useful information and snippets for HTML 5, CSS 3, PHP. Javascript, jQuery, React, Bootstrap, ect.
                             </p>
+                            <a href="https://stevenjackson.co.za/copypasta/" rel="noopener noreferrer" target="_blank">View CopyPasta App<FontAwesome className="arrow-down" name="arrow-right" /></a>
                             </div>
                         </BounceInRight>
                     </Col>
