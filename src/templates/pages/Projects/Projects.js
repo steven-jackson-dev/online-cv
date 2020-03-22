@@ -28,7 +28,7 @@ const Projects = () => {
                                     Contains small apps built using React as practice while learning the library and various packages.
                             </p>
                                 <b>Current Projects</b>
-                                <ul  className="mb-5">
+                                <ul className="mb-5">
                                     <li>Card Deck</li>
                                     <li>Coin Flipper</li>
                                     <li>Color Boxes</li>
@@ -43,10 +43,10 @@ const Projects = () => {
                             <div className="mb-5">
                                 <h2>CopyPasta - Example</h2>
                                 <em>Personal App - In Development</em>
-                                <p className="my-5">
+                                <p className="mt-3 mb-5">
                                     A personal app for storing useful information and snippets for HTML 5, CSS 3, PHP. Javascript, jQuery, React, Bootstrap, ect.
                             </p>
-                            <a href="https://stevenjackson.co.za/copypasta/" rel="noopener noreferrer" target="_blank">View CopyPasta App<FontAwesome className="arrow-down" name="arrow-right" /></a>
+                                <a href="https://stevenjackson.co.za/copypasta/" rel="noopener noreferrer" target="_blank">View CopyPasta App<FontAwesome className="arrow-down" name="arrow-right" /></a>
                             </div>
                         </BounceInRight>
                     </Col>
