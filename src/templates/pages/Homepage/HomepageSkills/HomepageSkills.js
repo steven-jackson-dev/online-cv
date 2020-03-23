@@ -23,7 +23,7 @@ const HomepageSkills = () => {
                                     My main skills as a Web Developer are HTML5, CSS3, Javascript, PHP and Wordpress with a React becoming a core addition for future use.
                                     I have tinkered around with a lot of languages and framework. <br /><br />
                                     Visit my <Link to='/skills'>Skills Page </Link> for a more detailed list of frameworks, libraries and tools that I have used</p>
-                            <ul className="list">
+                                {/* <ul className="list">
                                 <li>
                                     <span className="html5"></span>
                                     <em>HTML5</em>
@@ -48,15 +48,15 @@ const HomepageSkills = () => {
                                     <span className="react"></span>
                                     <em>React</em>
                                 </li>
-                            </ul>
+                            </ul> */}
 
                             </div>
                         </BounceInRight>
                     </Col>
                 </Row>
             </Container>
-        <HomepageLink link="/skills" name="Visit Skills Page" />
-        <NavigationArrow link="#HomepageExperience" color="#000" />
+            <HomepageLink link="/skills" name="Visit Skills Page" />
+            <NavigationArrow link="#HomepageExperience" color="#000" />
         </section >
     )
 }

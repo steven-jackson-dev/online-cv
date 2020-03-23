@@ -6,13 +6,13 @@ import NavigationArrow from './../../../components/NavigationArrow/NavigationArr
 export const HomepageContactMe = () => {
     return (
         <section id="HomepageContactMe" className="py-5">
-            <Row>
+            {/* <Row>
                 <Col className="content text-center">
                     <h2 className="text-uppercase">Contact Me</h2>
                     <hr style={{ borderColor: '#fff' }} />
-                    <HomepageLink link="/contact" name="Contact Me"/>
+                    <HomepageLink link="#HomepageAboutMe" name="Contact Me" />
                 </Col>
-            </Row>
+            </Row> */}
             <NavigationArrow link="#" color="#000" backToTop />
             <p className="text-center">Back to Top</p>
         </section>
