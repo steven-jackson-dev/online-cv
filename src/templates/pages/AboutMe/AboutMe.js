@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
-import { Row, Container, Col } from 'react-bootstrap'
+import { Row, Container, Col, Image } from 'react-bootstrap'
 import { BounceInRight } from "react-spring-pop";
+import setupImage from '../../../assets/images/my_setup.jpg'
 import './AboutMe.scss'
 
 const AboutMe = () => {
@@ -43,6 +44,10 @@ const AboutMe = () => {
                                 <p>I am a big fan of anime, coding, researching and gaming</p>
                                 <p>My free time is spent watching anime, gaming and learning/researching something new. The majority of my day is working or communicating with clients to make sure they receive the best Experience</p>
 
+                            </div>
+                            <div className="mb-5">
+                                <h2>My Setup</h2>
+                                <Image src={setupImage} fluid thumbnail />
                             </div>
                         </BounceInRight>
                     </Col>
