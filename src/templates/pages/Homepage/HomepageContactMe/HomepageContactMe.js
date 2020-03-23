@@ -1,6 +1,6 @@
 import React from 'react'
-import { Row, Col } from 'react-bootstrap'
-import HomepageLink from '../HomepageLink/HomepageLink'
+// import { Row, Col } from 'react-bootstrap'
+// import HomepageLink from '../HomepageLink/HomepageLink'
 import NavigationArrow from './../../../components/NavigationArrow/NavigationArrow';
 
 export const HomepageContactMe = () => {

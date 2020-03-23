@@ -19,7 +19,7 @@ const MainSkills = () => {
 
             <BounceInRight>
                 <div className="mb-5">
-                    <Row no-noGutters>
+                    <Row>
                         <Col md={6} xs={12} lg={4} className="mb-4">
                             <Card className="text-center p-3">
                                 <Card.Img variant="top" src={HtmlImage} />
