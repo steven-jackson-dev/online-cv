@@ -1,0 +1,93 @@
+@import "assets/scss/main.scss";
+
+#HomepageSkills {
+  & .title {
+    & h3 {
+      border-bottom: 3px solid red;
+      padding-bottom: 10px;
+      width: 40%;
+      margin: 0 auto;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      @media screen and (max-width: 500px) {
+        text-align: center;
+      }
+    }
+  }
+
+  & .description {
+    & a {
+      text-decoration: none;
+      color: #000;
+      font-weight: 700;
+    }
+    @media screen and (max-width: 500px) {
+      text-align: center;
+      padding-top: 2em;
+    }
+  }
+
+  & .content {
+    & ul.list {
+      list-style-type: none;
+      margin-top: 6em;
+      padding: 0;
+
+      & li {
+        position: relative;
+        margin-bottom: 60px;
+        background: #c3c3c3;
+        height: 42px;
+        border-radius: 10px;
+
+        & span {
+          position: absolute;
+          left: 0;
+          top: 0;
+          background: #313131;
+          height: 42px;
+          border-radius: 10px;
+
+          &.html5 {
+            width: 95%;
+            background: #e55126;
+          }
+
+          &.css3 {
+            width: 85%;
+            background: #0c73b8;
+          }
+
+          &.javascript {
+            width: 80%;
+            background: #e5a228;
+          }
+
+          &.php {
+            width: 75%;
+            background: #4f5b93;
+          }
+
+          &.wordpress {
+            width: 75%;
+            background: #21759b;
+          }
+
+          &.react {
+            width: 40%;
+          }
+        }
+
+        & em {
+          font-size: 1.3em;
+          color: #313131;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          font-weight: 700;
+          position: relative;
+          top: -36px;
+        }
+      }
+    }
+  }
+}

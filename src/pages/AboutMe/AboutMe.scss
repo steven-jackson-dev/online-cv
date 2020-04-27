@@ -1,0 +1,71 @@
+@import "assets/scss/main.scss";
+
+.AboutMe {
+  p {
+    font-size: 1em;
+    @media screen and (max-width: 500px) {
+      text-align: center;
+    }
+  }
+
+  .blockquote {
+    font-size: 1.2rem;
+  }
+
+  & h3 {
+    border-bottom: 3px solid red;
+    padding-bottom: 10px;
+    width: 65%;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  & .content {
+    border-left: 1px solid #c3c3c3;
+    padding: 0 2em;
+    @media screen and (max-width: 500px) {
+      text-align: center;
+      padding-top: 2em;
+    }
+  }
+  & .aboutMe-contactDetails {
+    @media screen and (max-width: 500px) {
+      text-align: center;
+    }
+      & ul {
+        list-style-type: none;
+        padding: 0;
+        & li {
+          padding: 5px 0;
+          & span {
+            width: 40px;
+            font-size: 1.4em;
+          }
+        }
+      }
+    & .aboutMe-downloadCv {
+      margin-top: 2em;
+      a {
+        @include transition(0.4s);
+        @include btn();
+        border: 1px solid #1f1f1f;
+
+        &:hover {
+          @include btn(#fff, #1f1f1f);
+          border: 1px solid #fff;
+          & span {
+            padding: 0 15px;
+            display: inline-flex;
+            @include animate-bounce();
+          }
+        }
+
+        & span {
+          display: none;
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+}

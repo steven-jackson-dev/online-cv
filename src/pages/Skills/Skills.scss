@@ -1,0 +1,36 @@
+@import "assets/scss/main.scss";
+.Skills {
+  & p {
+    font-size: 1em;
+  }
+
+  & h3 {
+    border-bottom: 3px solid red;
+    padding-bottom: 10px;
+    width: 65%;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  & h4 {
+    @media screen and (max-width: 500px) {
+      padding-top: 1em;
+    }
+  }
+  & .content {
+    border-left: 1px solid #c3c3c3;
+    padding: 0 2em;
+  }
+
+  & .card {
+    @include transition();
+    &:hover {
+      -webkit-box-shadow: 11px 11px 5px 0px rgba(50, 50, 50, 0.1);
+      -moz-box-shadow: 11px 11px 5px 0px rgba(50, 50, 50, 0.1);
+      box-shadow: 11px 11px 5px 0px rgba(50, 50, 50, 0.1);
+    }
+  }
+  @media screen and (max-width: 500px) {
+    text-align: center;
+  }
+}
