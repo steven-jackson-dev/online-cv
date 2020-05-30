@@ -32,7 +32,7 @@ const HomepageExperience = () => {
                 </Row>
             </Container>
             <HomepageLink link="/experience" name="Visit Experience Page" />
-            <AppNavArrow link="#HomepageEducation" color="#000" />
+            <AppNavArrow link="#HomepagePortfolio" color="#000" />
         </section>
     )
 }

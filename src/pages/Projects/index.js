@@ -22,12 +22,21 @@ const Projects = () => {
                     <Col md={9} xs={12} lg={9} className="content">
                         <BounceInRight>
                             <div className="mb-5">
-                                <h2>CopyPasta - Example</h2>
-                                <em>Personal App - In Development</em>
+                                <h2>Script Kiddie</h2>
+                                <em>Beta</em>
                                 <p className="mt-3 mb-5">
-                                    A personal app for storing useful information and snippets for HTML 5, CSS 3, PHP. Javascript, jQuery, React, Bootstrap, ect.
+                                    A personal app for storing useful information and snippets for HTML 5, CSS 3, PHP. Javascript, jQuery, React, Bootstrap, ect. I plan to make it public once it comes out of beta.<br />
+                                    <b><em>Test Logins are pre-entered for demo purposes.</em></b>
+                                </p>
+                                <a href="http://script-kiddie.co.za/" rel="noopener noreferrer" target="_blank">Script Kiddie App<FontAwesome className="arrow-down" name="arrow-right" /></a> <br />
+                            </div>
+                            <AppPageDivider />
+                            <div className="mb-5">
+                                <h2>Github User and Repo Search</h2>
+                                <p className="mt-3 mb-5">
+                                    A basic App that allows you to search through Github Users and Repositories.
                             </p>
-                                <a href="https://stevenjackson.co.za/copypasta/" rel="noopener noreferrer" target="_blank">CopyPasta App<FontAwesome className="arrow-down" name="arrow-right" /></a>
+                                <a href="https://steven-jackson-dev.github.io/covid-tracker/" rel="noopener noreferrer" target="_blank">View Covid Tracker App<FontAwesome className="arrow-down" name="arrow-right" /></a>
                             </div>
                             <AppPageDivider />
                             <div className="mb-5">
