@@ -36,7 +36,7 @@ const Projects = () => {
                                 <p className="mt-3 mb-5">
                                     A basic App that allows you to search through Github Users and Repositories.
                             </p>
-                                <a href="https://steven-jackson-dev.github.io/covid-tracker/" rel="noopener noreferrer" target="_blank">View Covid Tracker App<FontAwesome className="arrow-down" name="arrow-right" /></a>
+                                <a href="https://steven-jackson-dev.github.io/react-github-search/" rel="noopener noreferrer" target="_blank">View Github User and Repo Search <FontAwesome className="arrow-down" name="arrow-right" /></a>
                             </div>
                             <AppPageDivider />
                             <div className="mb-5">
