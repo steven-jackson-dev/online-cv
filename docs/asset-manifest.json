@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/online-cv/static/css/main.5a355cdb.chunk.css",
-    "main.js": "/online-cv/static/js/main.f7d9868c.chunk.js",
-    "main.js.map": "/online-cv/static/js/main.f7d9868c.chunk.js.map",
+    "main.js": "/online-cv/static/js/main.b0f245dc.chunk.js",
+    "main.js.map": "/online-cv/static/js/main.b0f245dc.chunk.js.map",
     "runtime-main.js": "/online-cv/static/js/runtime-main.1ccfcd70.js",
     "runtime-main.js.map": "/online-cv/static/js/runtime-main.1ccfcd70.js.map",
     "static/css/2.69121389.chunk.css": "/online-cv/static/css/2.69121389.chunk.css",
-    "static/js/2.710f12b9.chunk.js": "/online-cv/static/js/2.710f12b9.chunk.js",
-    "static/js/2.710f12b9.chunk.js.map": "/online-cv/static/js/2.710f12b9.chunk.js.map",
+    "static/js/2.654b6fe4.chunk.js": "/online-cv/static/js/2.654b6fe4.chunk.js",
+    "static/js/2.654b6fe4.chunk.js.map": "/online-cv/static/js/2.654b6fe4.chunk.js.map",
     "index.html": "/online-cv/index.html",
-    "precache-manifest.7e9644e49595e42ed4a803a078b0a492.js": "/online-cv/precache-manifest.7e9644e49595e42ed4a803a078b0a492.js",
+    "precache-manifest.7ee8311aa7318f01492956413425a834.js": "/online-cv/precache-manifest.7ee8311aa7318f01492956413425a834.js",
     "service-worker.js": "/online-cv/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/online-cv/static/css/2.69121389.chunk.css.map",
     "static/css/main.5a355cdb.chunk.css.map": "/online-cv/static/css/main.5a355cdb.chunk.css.map",
-    "static/js/2.710f12b9.chunk.js.LICENSE.txt": "/online-cv/static/js/2.710f12b9.chunk.js.LICENSE.txt",
+    "static/js/2.654b6fe4.chunk.js.LICENSE.txt": "/online-cv/static/js/2.654b6fe4.chunk.js.LICENSE.txt",
     "static/media/Adobe_Photoshop_Logo.jpg": "/online-cv/static/media/Adobe_Photoshop_Logo.4b91d14b.jpg",
-    "static/media/Steven Jackson CV.docx": "/online-cv/static/media/Steven Jackson CV.c25b01e7.docx",
     "static/media/braveart.png": "/online-cv/static/media/braveart.9f463423.png",
     "static/media/earthaddict.png": "/online-cv/static/media/earthaddict.e3ac05cb.png",
     "static/media/earthchild.png": "/online-cv/static/media/earthchild.f90354db.png",
@@ -40,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.1ccfcd70.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.710f12b9.chunk.js",
+    "static/js/2.654b6fe4.chunk.js",
     "static/css/main.5a355cdb.chunk.css",
-    "static/js/main.f7d9868c.chunk.js"
+    "static/js/main.b0f245dc.chunk.js"
   ]
 }
