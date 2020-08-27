@@ -1,7 +1,6 @@
 import React from 'react'
 import { Row, Container, Col } from 'react-bootstrap'
 import { BounceInRight } from "react-spring-pop";
-import './HomepageExperience.scss'
 import HomepageLink from '../HomepageLink';
 import AppNavArrow from 'components/AppNavArrow';
 

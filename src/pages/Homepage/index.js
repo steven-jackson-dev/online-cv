@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import './Homepage.scss'
 import AppPageDivider from 'components/AppPageDivider';
 import HomepageProfile from './HomepageProfile'
 import HomepageAboutMe from './HomepageAboutMe';

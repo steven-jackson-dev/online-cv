@@ -4,7 +4,7 @@ import HomepageLink from '../HomepageLink'
 import { Row, Container, Col, Image } from 'react-bootstrap'
 import { BounceInRight } from "react-spring-pop";
 import profileImage from 'assets/images/steven-jackson.jpg'
-import './HomepageAboutMe.scss'
+
 const HomepageAboutMe = () => {
     return (
         <section id="HomepageAboutMe">

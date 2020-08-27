@@ -1,4 +1,12 @@
+@import "./abstracts/mixin";
+@import "./abstracts/variables";
+@import "./abstracts/animations";
+
 @import "./base/base";
 @import "./base/typography";
-@import "./theme/theme";
-@import "./abstracts/mixin";
+
+@import "./layout/grid.scss";
+
+@import "./pages/homepage/homepage";
+
+@import "./components/modal_image";
