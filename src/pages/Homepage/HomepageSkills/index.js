@@ -134,7 +134,7 @@ const HomepageSkills = () => {
         </Row>
         <Row>
           <Col>
-            <AppNavArrow link="#HomepageExperience" />
+            <AppNavArrow link="#HomepagePortfolio" />
           </Col>
         </Row>
       </Container>
