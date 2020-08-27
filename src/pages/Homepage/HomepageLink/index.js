@@ -2,10 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import FontAwesome from "react-fontawesome";
 import { PropTypes } from "prop-types";
-
 const HomepageLink = (props) => {
-  const { link, name, colors = { bgColor: "#313131", color: "#fff" } } = props;
-  const { bgColor, color } = colors;
+  const { link, name } = props;
 
   HomepageLink.propTypes = {
     link: PropTypes.string.isRequired,
@@ -14,10 +12,7 @@ const HomepageLink = (props) => {
   };
   return (
     <div className="HomepageLink text-center my-5">
-      <Link
-        to={link}
-        style={colors && { color: color, backgroundColor: bgColor }}
-      >
+      <Link to={link}>
         {name}
         <FontAwesome className="arrow-down" name="arrow-right" />
       </Link>

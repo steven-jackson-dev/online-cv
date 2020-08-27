@@ -1,28 +1,74 @@
-
 #HomepageAboutMe {
-  padding: 5em 0 2em 0;
+  padding: 6vh 0;
+  position: relative;
+  @include transition;
 
-  & .profileImage {
-    @media screen and (max-width: 500px) {
-      text-align: center;
-    }
-  }
-
-  & p {
-    @media screen and (max-width: 500px) {
-      text-align: center;
-    }
-  }
   & h2 {
-    @media screen and (max-width: 500px) {
-      padding-top: 2em;
-      text-align: center;
+    background-image: linear-gradient(to right, $black, $light_green);
+    background-clip: text;
+    color: transparent;
+    @include transition;
+  }
+  & .img-wrapper {
+    @include absolute-center-all-elements;
+    @include transition(0.25s);
+    width: 75%;
+
+    @media screen and (max-width: 800px) {
+      position: relative;
+      width: 40%;
+      margin: 2rem 0;
+    }
+    // position: relative;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    // width: 40%;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0px;
+      left: 0;
+      bottom: 0px;
+      right: 0px;
+      z-index: -1;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      background: linear-gradient(45deg, $light_green, $black, $black);
+      top: -2px;
+      left: -2px;
+      bottom: -2px;
+      right: -2px;
+      z-index: -2;
+      filter: blur(20px);
+
+      &:before,
+      &:after {
+        background: linear-gradient(
+          to bottom right,
+          $light_green,
+          $black,
+          $black
+        );
+      }
+    }
+
+    & img {
+      border-radius: 2%;
+      transition: inherit;
     }
   }
-  & img {
-    width: 200px;
-    @media screen and (max-width: 500px) {
-      text-align: center;
+
+  & .content {
+    padding: 0 30px;
+  }
+
+  &:hover {
+    & h2 {
+      letter-spacing: 0.6rem;
     }
   }
 }

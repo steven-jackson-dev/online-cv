@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Row, Container, Col, Figure } from "react-bootstrap";
+import { Row, Container, Col, Card } from "react-bootstrap";
 import { PopIn } from "react-spring-pop";
 import ModalImage from "components/AppModalImage";
 import AppNavArrow from "components/AppNavArrow";
@@ -17,40 +17,47 @@ const HomepagePortfolio = () => {
   };
 
   return (
-    <section id="HomepagePortfolio" className="py-5 mt-5 text-white">
+    <section id="HomepagePortfolio">
       <PopIn>
         <Container>
           <Row>
             <Col md={12} xs={12} lg={12}>
               <div className="title text-center mb-5">
                 <h2 className="text-uppercase">Portfolio</h2>
-                <hr style={{ borderColor: "#fff" }} />
-                <p className="lead">
-                  A small sample of my portfolio.
-                  <br />
-                  Please visit my <Link to="/skills">Portfolio Page</Link> to
-                  view a list of all the clients I have worked with.
-                </p>
               </div>
             </Col>
           </Row>
-          <Row>
+          <Row className="portfolio-wrapper" noGutters>
             {homepagePortfolioData.map((e) => {
               return (
                 <Col key={e.id} md={4} xs={12} lg={3}>
-                  <div className="item text-center mb-5">
+                  <Card className="text-center mx-4">
+                    <Card.Img
+                      variant="top"
+                      src={e.thumb}
+                      alt={e.name}
+                      onClick={(evt) => handleImageClick(evt, e)}
+                    />
+                    <Card.Body>
+                      <Card.Title>{e.name}</Card.Title>
+                      <Card.Text>
+                        <em>{e.type}</em>
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                  {/* <div className="item text-center">
                     <Figure>
                       <Figure.Image
                         alt={e.name}
                         src={e.thumb}
                         onClick={(evt) => handleImageClick(evt, e)}
                       />
-                      <Figure.Caption className="text-white">
+                      <Figure.Caption>
                         <h3>{e.name}</h3>
                         <em>{e.type}</em>
                       </Figure.Caption>
                     </Figure>
-                  </div>
+                  </div> */}
                 </Col>
               );
             })}
@@ -67,7 +74,7 @@ const HomepagePortfolio = () => {
           />
         </Container>
       </PopIn>
-      <AppNavArrow link="#HomepageProjects" color="#fff" />
+      <AppNavArrow link="#HomepageProjects" color="#000" />
     </section>
   );
 };

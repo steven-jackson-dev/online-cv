@@ -1,4 +1,4 @@
-#HomepageSkills {
+#HomepageProjects {
   background-image: linear-gradient(
       to right bottom,
       rgba($black, 1),
@@ -8,28 +8,24 @@
   padding: 10vh;
   color: $white;
   transform: skewY(-4deg);
+  & .row {
+    transform: skewY(4deg);
+    & .card {
+      margin: 1rem 0;
+      padding: 1rem;
+      background-color: rgba($white, 0.1);
+      border: 1px solid $white;
+    }
 
-  @media screen and (max-width: 800px) {
-    padding: 7vh;
-  }
-
-  & .card {
-    @include transition();
-    margin: 1rem 0;
-    padding: 1rem;
-    background-color: rgba($white, 0.1);
-    border: 1px solid $white;
-    &:hover {
-      transform: translate(1.5rem, 1.5rem) skewY(4deg) scale(1.2);
-      background-color: rgba($white, 1);
-      color: $black;
+    & img {
+      max-width: 400px;
+      max-height: 323px;
+      margin: 0 auto;
+    }
+    & .heading {
+      transform: skewY(4deg);
     }
   }
-
-  & .heading {
-    transform: skewY(4deg);
-  }
-
   & .links {
     transform: skewY(4deg);
     & a {

@@ -60,7 +60,7 @@ const Projects = () => {
                 <br />
                 <a
                   className="mt-3 mb-5"
-                  href="http://script-kiddie.co.za/app"
+                  href="http://script-kiddie.co.za/app/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >

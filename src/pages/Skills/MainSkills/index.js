@@ -51,7 +51,7 @@ const MainSkills = () => {
                                     <Card.Title>Javascript</Card.Title>
                                     <Card.Text>
                                         <b>Experienced</b><br />
-                                        <em>4 Years</em>
+                                        <em>5 Years</em>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -63,7 +63,7 @@ const MainSkills = () => {
                                     <Card.Title>PHP</Card.Title>
                                     <Card.Text>
                                         <b>Experienced</b><br />
-                                        <em>3 Years</em>
+                                        <em>4 Years</em>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -75,7 +75,7 @@ const MainSkills = () => {
                                     <Card.Title>Bootstrap</Card.Title>
                                     <Card.Text>
                                         <b>Very Experienced</b><br />
-                                        <em>4 Years</em>
+                                        <em>5 Years</em>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -87,7 +87,7 @@ const MainSkills = () => {
                                     <Card.Title>Wordpress</Card.Title>
                                     <Card.Text>
                                         <b>Experienced</b><br />
-                                        <em>3 Years</em>
+                                        <em>5 Years</em>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>

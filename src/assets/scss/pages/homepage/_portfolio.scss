@@ -1,18 +1,56 @@
 #HomepagePortfolio {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  -webkit-animation: gradientBG 5s ease infinite;
-  animation: gradientBG 5s ease infinite;
-  & .lead a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 700;
-  }
-  & .item {
-    & img {
-      cursor: pointer;
-      min-height: 200px;
-      margin-bottom: 20px;
+  padding: 10rem 0;
+  & .portfolio-wrapper {
+    & .card {
+      background: $white;
+      box-shadow: 1px 1px 7px $black;
+      padding: 1rem;
+      &-body {
+        padding: 0;
+      }
+      & img {
+        cursor: pointer;
+        min-height: 200px;
+        margin-bottom: 20px;
+        max-height: 200px;
+      }
+      &:nth-child(2) {
+        background: red;
+      }
+      &:before {
+        content: "";
+        position: absolute;
+        background: $black;
+        top: -2px;
+        left: -2px;
+        bottom: -2px;
+        right: -2px;
+        z-index: -1;
+        transform: skew(2deg, 2deg);
+      }
+
+      &:after {
+        content: "";
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        bottom: -2px;
+        right: -2px;
+        z-index: -2;
+      }
+    }
+
+    & > div:nth-child(1) .card:before {
+      background: linear-gradient(315deg, #0876b7, #03a9f4);
+    }
+    & > div:nth-child(2) .card:before {
+      background: linear-gradient(315deg, #004e14, #00aa20);
+    }
+    & > div:nth-child(3) .card:before {
+      background: linear-gradient(315deg, #000000, #9c1a1a);
+    }
+    & > div:nth-child(4) .card:before {
+      background: linear-gradient(315deg, #00ff95, #ff6300);
     }
   }
 }

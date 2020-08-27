@@ -1,3 +1,10 @@
+@mixin absolute-center-all-elements($top: 50%, $left: 50%) {
+  position: absolute;
+  top: $top;
+  left: $left;
+  transform: translate(-50%, -50%);
+}
+
 @mixin background-color($bg-color: #1a1e23) {
   background-color: $bg-color;
 }
@@ -29,27 +36,4 @@
   font-size: 1em;
   text-decoration: none;
   text-transform: uppercase;
-}
-
-@-webkit-keyframes gradientBG {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@keyframes gradientBG {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }

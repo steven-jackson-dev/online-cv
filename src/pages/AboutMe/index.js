@@ -48,15 +48,33 @@ const AboutMe = () => {
               <div className="mb-5">
                 <h2>General</h2>
                 <p className="mt-3">
-                  I am a very calm and happy person. I like to make jokes,
-                  banter and prank people in a hilarious way. I like to help
-                  people and I am very good at explaining technical jargon to
-                  non-technical people using analogies and situations. I take
-                  pride in my work and coding is not just a career for me, it is
-                  also a passion and hobby. I love creating functionality and
-                  making things work while keeping the user experience in mind.
-                  I will not stop coding till I know as much as I possibily can
-                  in FED and BED.
+                  <p className="mt-3">
+                    I am a self-taught Web Developer who specializes in
+                    Wordpress and it has been my core CMS for the last 5 years
+                    with over 100 clients under my belt. Coding is a passion,
+                    hobby and career. If you need something done from simple to
+                    custom and complex then I am a great choice.
+                  </p>
+                  <p className="mt-3">
+                    I am very easy to talk to and very responsive to
+                    communications. You can even contact me on weekends. (^_^)
+                    My working hours are from 8am - 11pm.
+                  </p>
+                  I am a very calm and happy person. I like to help people and I
+                  am very good at explaining technical jargon to non-technical
+                  people using analogies and situations. I take pride in my work
+                  and coding is not just a career for me, it is also a passion
+                  and hobby. I love creating functionality and making things
+                  work while keeping the user experience in mind. I will not
+                  stop coding till I know as much as I possibily can in FED and
+                  BED.
+                </p>
+
+                <p className="mt-3">
+                  I have much more Web Technology under my belt. If you need
+                  someone to just manage everything for you and make your life
+                  simple and/or automated. Your customers will love your site
+                  after a quick visit from me.
                 </p>
               </div>
               <div className="mb-5">
