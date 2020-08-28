@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/online-cv/static/css/main.1285cf43.chunk.css",
+    "main.css": "/online-cv/static/css/main.0643da97.chunk.css",
     "main.js": "/online-cv/static/js/main.af816fb7.chunk.js",
     "main.js.map": "/online-cv/static/js/main.af816fb7.chunk.js.map",
     "runtime-main.js": "/online-cv/static/js/runtime-main.49bd538e.js",
@@ -9,10 +9,10 @@
     "static/js/2.ccf7c6b9.chunk.js": "/online-cv/static/js/2.ccf7c6b9.chunk.js",
     "static/js/2.ccf7c6b9.chunk.js.map": "/online-cv/static/js/2.ccf7c6b9.chunk.js.map",
     "index.html": "/online-cv/index.html",
-    "precache-manifest.f69c0708f17b4dca4403abfb854b9bd9.js": "/online-cv/precache-manifest.f69c0708f17b4dca4403abfb854b9bd9.js",
+    "precache-manifest.6fc9ebea43288dbf83feff9ffbda33ba.js": "/online-cv/precache-manifest.6fc9ebea43288dbf83feff9ffbda33ba.js",
     "service-worker.js": "/online-cv/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/online-cv/static/css/2.de424728.chunk.css.map",
-    "static/css/main.1285cf43.chunk.css.map": "/online-cv/static/css/main.1285cf43.chunk.css.map",
+    "static/css/main.0643da97.chunk.css.map": "/online-cv/static/css/main.0643da97.chunk.css.map",
     "static/js/2.ccf7c6b9.chunk.js.LICENSE.txt": "/online-cv/static/js/2.ccf7c6b9.chunk.js.LICENSE.txt",
     "static/media/Adobe_Photoshop_Logo.jpg": "/online-cv/static/media/Adobe_Photoshop_Logo.4b91d14b.jpg",
     "static/media/braveart.png": "/online-cv/static/media/braveart.9f463423.png",
@@ -42,7 +42,7 @@
     "static/js/runtime-main.49bd538e.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.ccf7c6b9.chunk.js",
-    "static/css/main.1285cf43.chunk.css",
+    "static/css/main.0643da97.chunk.css",
     "static/js/main.af816fb7.chunk.js"
   ]
 }
