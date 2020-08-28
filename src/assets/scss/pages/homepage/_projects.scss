@@ -1,20 +1,27 @@
 #HomepageProjects {
-  background-image: linear-gradient(
-      to right bottom,
+  background-image: linear-gradient(to right bottom,
       rgba($black, 1),
-      rgba($dark_green, 0.65)
-    ),
+      rgba($dark_green, 0.65)),
     url("https://steven-jackson-dev.github.io/online-cv/static/media/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.a3f7cf93.jpg");
   padding: 10vh;
   color: $white;
   transform: skewY(-4deg);
+
   & .row {
     transform: skewY(4deg);
+
     & .card {
       margin: 1rem 0;
       padding: 1rem;
       background-color: rgba($white, 0.1);
-      border: 1px solid $white;
+      @include transition;
+      box-shadow: 14px 14px 0px -5px #c3c3c35c;
+
+      &:hover {
+        transform: translateY(-6px);
+        box-shadow: 20px 20px 5px -5px #c3c3c35c;
+
+      }
     }
 
     & img {
@@ -22,12 +29,15 @@
       max-height: 323px;
       margin: 0 auto;
     }
+
     & .heading {
       transform: skewY(4deg);
     }
   }
+
   & .links {
     transform: skewY(4deg);
+
     & a {
       background-color: $white;
       color: $black;
