@@ -39,6 +39,24 @@ const Projects = () => {
               </div>
               <AppPageDivider />
               <div className="mb-5">
+                <h2>Script Kid - Layouts</h2>
+                <p className="mt-3 mb-5">
+                  A personal side project in relation to Script Kiddie
+                  containing commonly used layouts written with CSS Grids.
+                  <br />
+                </p>
+                <a
+                  href="https://script-kid-official.github.io/sk-grid-layouts/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  View Script Kid Layouts
+                  <FontAwesome className="arrow-down" name="arrow-right" />
+                </a>{" "}
+                <br />
+              </div>
+              <AppPageDivider />
+              <div className="mb-5">
                 <h2>Script Kiddie</h2>
                 <p className="mt-3 mb-5">
                   A personal app for storing useful information and snippets for

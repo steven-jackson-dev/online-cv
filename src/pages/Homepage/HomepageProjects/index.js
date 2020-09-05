@@ -3,6 +3,7 @@ import { Row, Container, Col, Card } from "react-bootstrap";
 import HomepageLink from "../HomepageLink";
 import ScriptKiddie from "assets/images/script-kiddie.png";
 import CovidTracker from "assets/images/covid-tracker.png";
+import ScriptKid from "assets/images/script-kid.png";
 
 const HomepageProjects = () => {
   return (
@@ -30,11 +31,11 @@ const HomepageProjects = () => {
           </Col>
           <Col md={6} xs={12} lg={6}>
             <Card className="text-center py-5">
-              <Card.Img variant="top" src={CovidTracker} />
+              <Card.Img variant="top" src={ScriptKid} />
               <Card.Body>
-                <Card.Title>Covid Tracker</Card.Title>
+                <Card.Title>Script Kid</Card.Title>
                 <Card.Text>
-                  A Covid Tracking App to track the status of the infection
+                  A personal side project in relation to Script Kiddie
                 </Card.Text>
               </Card.Body>
             </Card>
