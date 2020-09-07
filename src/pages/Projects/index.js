@@ -21,8 +21,8 @@ const Projects = () => {
           <Col md={9} xs={12} lg={9} className="content">
             <BounceInRight>
               <div className="mb-5">
-                <h2>Script Kid - Github Alias</h2>
-                <p className="mt-3 mb-5">
+                <h4>Script Kid - Github Alias</h4>
+                <p className="mt-3 mb-4">
                   A separate personal repo that I use for uploading code that is
                   reusable in combination with Script Kiddie.
                   <br />
@@ -39,14 +39,14 @@ const Projects = () => {
               </div>
               <AppPageDivider />
               <div className="mb-5">
-                <h2>Script Kid - Layouts</h2>
-                <p className="mt-3 mb-5">
+                <h4>Script Kid - Layouts</h4>
+                <p className="mt-3 mb-4">
                   A personal side project in relation to Script Kiddie
                   containing commonly used layouts written with CSS Grids.
                   <br />
                 </p>
                 <a
-                  href="https://script-kid-official.github.io/sk-grid-layouts/"
+                  href="https://script-kiddie.co.za/script-kid/grid-layouts/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -57,40 +57,28 @@ const Projects = () => {
               </div>
               <AppPageDivider />
               <div className="mb-5">
-                <h2>Script Kiddie</h2>
-                <p className="mt-3 mb-5">
+                <h4>Script Kiddie</h4>
+                <p className="mt-3 mb-4">
                   A personal app for storing useful information and snippets for
                   HTML 5, CSS 3, PHP, Javascript, jQuery, Wordpress, React,
                   Bootstrap, SCSS, Theory, ect.
                   <br />
                 </p>
                 <a
-                  className="mt-3 mb-5"
+                  className="mt-3 mb-4"
                   href="http://script-kiddie.co.za/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  Script Kiddie - Wordpress API
-                  <FontAwesome className="arrow-down" name="arrow-right" />
-                </a>{" "}
-                <br />
-                <br />
-                <br />
-                <a
-                  className="mt-3 mb-5"
-                  href="http://script-kiddie.co.za/app/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  Script Kiddie React App
+                  Visit Script Kiddie
                   <FontAwesome className="arrow-down" name="arrow-right" />
                 </a>{" "}
                 <br />
               </div>
               <AppPageDivider />
               <div className="mb-5">
-                <h2>Github User and Repo Search</h2>
-                <p className="mt-3 mb-5">
+                <h4>Github User and Repo Search</h4>
+                <p className="mt-3 mb-4">
                   A basic App that allows you to search through Github Users and
                   Repositories.
                 </p>
@@ -105,8 +93,8 @@ const Projects = () => {
               </div>
               <AppPageDivider />
               <div className="mb-5">
-                <h2>Covid 19 Tracker</h2>
-                <p className="mt-3 mb-5">
+                <h4>Covid 19 Tracker</h4>
+                <p className="mt-3 mb-4">
                   A Covid Tracking App to track the status of the infection
                 </p>
                 <a
@@ -120,9 +108,9 @@ const Projects = () => {
               </div>
               <AppPageDivider />
               <div className="mb-5">
-                <h2>React Boilerplate with Bootstrap</h2>
+                <h4>React Boilerplate with Bootstrap</h4>
                 <em>Boilerplate Template</em>
-                <p className="mt-3 mb-5">
+                <p className="mt-3 mb-4">
                   Scaffold React App with common packages using React Bootstrap
                   as the CSS Framework
                 </p>
@@ -138,9 +126,9 @@ const Projects = () => {
               <AppPageDivider />
 
               <div className="mb-5">
-                <h2>React Boilerplate with Material</h2>
+                <h4>React Boilerplate with Material</h4>
                 <em>Boilerplate Template</em>
-                <p className="mt-3 mb-5">
+                <p className="mt-3 mb-4">
                   Scaffold React App with common packages using Material UI as
                   the CSS Framework
                 </p>

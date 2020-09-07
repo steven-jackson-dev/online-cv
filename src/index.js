@@ -1,9 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-    <BrowserRouter basename='/online-cv'>
-        <App />
-    </BrowserRouter>, document.getElementById('root'));
+  <BrowserRouter basename="/steven-jackson/">
+    <App />
+  </BrowserRouter>,
+  document.getElementById("root")
+);

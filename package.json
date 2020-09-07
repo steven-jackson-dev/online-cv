@@ -2,7 +2,7 @@
   "name": "steven-jackson-online-cv",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://steven-jackson-dev.github.io/online-cv",
+  "homepage": "https://script-kiddie.co.za/steven-jackson/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
