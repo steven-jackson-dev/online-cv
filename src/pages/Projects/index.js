@@ -66,7 +66,7 @@ const Projects = () => {
                 </p>
                 <a
                   className="mt-3 mb-4"
-                  href="http://script-kiddie.co.za/"
+                  href="https://script-kiddie.co.za/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
